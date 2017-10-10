@@ -16,4 +16,7 @@ constructor(private exampleService: ExampleService){
   title = 'app';
   data: string;
 
+  do(){
+    console.log("Kek");
+  }
 }
