@@ -7,15 +7,21 @@ import {SharedModule} from './shared/shared.module';
 
 //App components
 import { AppComponent } from './app.component';
+import { ButtonBsic} from './../button-basic/button.basic';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ButtonBsic
   ],
   imports: [
     BrowserModule,
     SharedModule
   ],
+
+  exports: [ButtonBsic],
+
   providers: [],
   bootstrap: [AppComponent]
 })
