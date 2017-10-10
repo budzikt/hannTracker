@@ -12,7 +12,7 @@ export class AppComponent {
 constructor(private exampleService: ExampleService){
 }
 
-  title = 'HannTrackerks';
+  title = 'HannTracker';
 
   do(){
     console.log("Kek");
